@@ -26,6 +26,12 @@ The actual installation is as simple as:
 npm install -g appium
 ```
 
+If had trouble with permission access, can try below command,
+
+```
+sudo npm install -g appium@beta --unsafe-perm=true --allow-root
+```
+
 #### Installation via Desktop App Download
 
 Simply download the latest version of Appium Desktop from the [releases
